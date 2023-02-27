@@ -83,5 +83,13 @@ li > a {
 }
 
 .first-row, .second-row {
-    margin: 50px;
+    margin: 50px 25%;
+}
+
+.first-row > a, .second-row > a {
+    margin: 10px 50px;
+    /* background-color: red; */
+    text-decoration-line: none;
+    color: black;
+
 }
