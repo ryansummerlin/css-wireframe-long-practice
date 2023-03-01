@@ -1,12 +1,12 @@
-.upper__left {
-    height: 1.2em;
-    width: 1.2em;
+.upper__left, .footer__left {
+    height: 1.4em;
+    width: 1.4em;
     display: inline;
     position: relative;
     left: 50px;
 }
 
-.upper__right {
+.upper__right, .footer__right {
     display: inline;
     position: absolute;
     right: 10px;
@@ -17,6 +17,13 @@
     text-decoration-line: none;
     margin: 20px;
     padding: 5px;
+}
+
+.about, .help {
+    text-decoration-line: none;
+    margin: 20px;
+    padding: 5px;
+    color: black;
 }
 
 .get-started {
